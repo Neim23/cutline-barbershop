@@ -102,7 +102,7 @@ h2 em { color: var(--accent); }
 
 .gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(8px, 1.2vw, 16px); margin-top: 34px; }
 .gallery img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 12px; border: 1px solid var(--line); background: var(--accent-deep); }
-/* the concept site has a single gallery photo: show it wide instead of a lone thumbnail */
+/* a single gallery photo: show it wide instead of a lone thumbnail */
 .gallery img:only-child { grid-column: 1 / -1; aspect-ratio: 21 / 9; }
 
 .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .93fr); gap: clamp(27px, 7vw, 95px); align-items: center; }
